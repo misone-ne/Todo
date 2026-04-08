@@ -22,6 +22,11 @@
     max-width: 1230px;
 }
 
+.section__title {
+    margin: 0 auto;
+    width: 70%;
+}
+
 .create-form, .search-form {
     display: flex;
     justify-content: space-between;
@@ -71,7 +76,7 @@
 .todo-table {
     margin: 30px auto;
     width: 70%;
-    text-align: left;
+    text-align: center;
 }
 
 .todo-table__inner {
@@ -82,16 +87,25 @@
     border-bottom: 1px solid #ddd;
 }
 
-.todo-table__header {
+/* .todo-table__header {
     padding: 12px;
     width: 20%;
     text-align: left;
     font-weight: bold;
+} */
+
+.todo-table__header {
+    display: flex;
 }
 
-.todo-table__header-span {
-    margin-right: 40%;
+.todo-table__header span {
+    width: 50%;
+    text-align: left;
 }
+
+/* .todo-table__header-span {
+    margin-right: 40%;
+} */
 
 .todo-table__item:first-of-type {
     padding: 12px;
